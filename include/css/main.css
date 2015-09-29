@@ -1,0 +1,21 @@
+#container {
+    width:1500px;
+    margin:2%;
+}
+#text-input {
+    width:50%;
+    float:left;
+}
+#text-input .custom-alerts {
+	text-align:center;
+	margin-right:4%;
+}
+#tools {
+    width:30%;
+    float:left;
+    padding-top:5%;
+}
+#tools #submit-btn {
+    width:50%;
+}
+

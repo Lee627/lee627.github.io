@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="include/js/script.js"></script>
+	<link rel="stylesheet" href="include/css/main.css">
+</head>
+<body>
+<body>
+    <div id="container">
+        <div id="text-input">
+            	<h1 align="center">Delimiter-matching</h1>
+            <div id="success-alert" class="alert alert-success custom-alerts hidden" role="alert">
+            	<span><b>Success!</b> We found no errors in your code.</span>
+            </div>
+            <div id="error-alert" class="alert alert-danger custom-alerts hidden" role="alert"><span></span></div>
+            <textarea id="code-input-tb" name="Text1" cols="100" rows="30" placeholder="Copy and paste your code here"></textarea>
+        </div>
+        <div id="tools">
+            <input class="btn btn-primary btn-lg" id="submit-btn" type="button" onclick="return analyze();" value="Check!" />
+        </div>
+    </div>
+</body>
+</html>
